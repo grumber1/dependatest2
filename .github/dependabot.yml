@@ -8,9 +8,14 @@ updates:
   - package-ecosystem: "npm" # Manages JavaScript dependencies
     directory: "/"          # Location of package.json and package-lock.json
     schedule:
-      interval: "weekly"     # Frequency of updates (daily, weekly, or monthly)
+      interval: "daily"     # Frequency of updates (daily, weekly, or monthly)
 
-  - package-ecosystem: "gomod" # Manages Go dependencies
-    directory: "/"            # Location of go.mod
+  - package-ecosystem: "npm" # Manages JavaScript dependencies
+    directory: "/frontend"          # Location of package.json and package-lock.json
     schedule:
-      interval: "weekly"      # Frequency of updates (daily, weekly, or monthly)
+      interval: "daily"     # Frequency of updates (daily, weekly, or monthly)
+
+  - package-ecosystem: "npm" # Manages JavaScript dependencies
+    directory: "/backend"          # Location of package.json and package-lock.json
+    schedule:
+      interval: "daily"     # Frequency of updates (daily, weekly, or monthly)
