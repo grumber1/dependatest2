@@ -24,4 +24,7 @@ updates:
     directory: "/frontendcopy"          # Location of package.json and package-lock.json
     schedule:
       interval: "daily"     # Frequency of updates (daily, weekly, or monthly)
+    commit-message:
+      prefix: "dependencies"
+    automerge: true
       
