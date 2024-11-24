@@ -19,3 +19,8 @@ updates:
     directory: "/backend"          # Location of package.json and package-lock.json
     schedule:
       interval: "daily"     # Frequency of updates (daily, weekly, or monthly)
+
+  - package-ecosystem: "npm" # Manages JavaScript dependencies
+    directory: "/frontendcopy"          # Location of package.json and package-lock.json
+    schedule:
+      interval: "daily"     # Frequency of updates (daily, weekly, or monthly)
