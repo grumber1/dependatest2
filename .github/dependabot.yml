@@ -26,5 +26,6 @@ updates:
       interval: "daily"     # Frequency of updates (daily, weekly, or monthly)
     commit-message:
       prefix: "dependencies"
-    automerge: true
+    labels:
+      - automerge
       
