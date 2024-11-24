@@ -1,6 +1,1 @@
-npm ci
-
-cd frontend
-npm ci
-
-cd ..
+./install-dependencies.sh
