@@ -1,1 +1,16 @@
-./install-dependencies.sh
+#!/bin/bash
+
+# Specify the root directory
+ROOT="C:\Users\Administrator\Desktop\gittest\dependatest2"
+
+# Specify the array of subfolder paths (separated by blank_space, no comma)
+SUBFOLDERS=("./" "frontend" "backend")
+
+# Loop through each subfolder
+for SUBFOLDER in "${SUBFOLDERS[@]}"; do
+  cd "$SUBFOLDER"
+
+  npm ci
+
+  cd "$ROOT"
+done
